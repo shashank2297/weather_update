@@ -15,6 +15,104 @@
     <!-- Linking CSS -->
 
     <link rel="stylesheet" href="./style.css">
+    <style>
+        @media only screen and (max-width: 1024px) {
+            .fsection div input {
+                width: 120px;
+                height: auto;
+            }
+
+            .fsection img {
+                width: 150px;
+            }
+        }
+        @media only screen and (max-width: 1023px) and (min-width: 768px) {
+            .fsection div input {
+                width: 75px;
+                height: auto;
+            }
+
+            .fsection img {
+                width: 120px;
+            }
+
+            .smain {
+                grid-template-columns: repeat(3, 9fr);
+            }
+        }
+        @media only screen and (max-width: 767px) and (min-width: 425px){
+            .fsection div input {
+                width: 60px;
+                height: auto;
+                position: relative;
+                left: -45px;
+            }
+
+            .fsection div span {
+                width: 60px;
+                height: auto;
+                position: relative;
+                left: -50px;
+
+            }
+            .fsection img {
+                width: 70px;
+                margin-left: -18px;
+            }
+
+            .fsection h1 {
+                margin-left: -6px;
+                font-size: 22px;
+            }
+
+            .fsection p {
+                margin-left: -8px;
+                font-size: 13px;
+            }
+            #location {
+                margin-top: 2200px;
+            }
+            .smain {
+                grid-template-columns: repeat(2, 12fr);
+            }
+        }
+        @media only screen and (max-width: 424px){
+            .fsection div input {
+                width: 60px;
+                height: auto;
+                position: relative;
+                left: -45px;
+            }
+
+            .fsection div span {
+                width: 60px;
+                height: auto;
+                position: relative;
+                left: -50px;
+
+            }
+            .fsection img {
+                width: 70px;
+                margin-left: -22px;
+            }
+
+            .fsection h1 {
+                margin-left: -6px;
+                font-size: 18px;
+            }
+
+            .fsection p {
+                margin-left: -8px;
+                font-size: 13px;
+            }
+            #location {
+                margin-top: 2200px;
+            }
+            .smain {
+                grid-template-columns: repeat(2, 12fr);
+            }
+        }
+    </style>
 </head>
 
 <body>
