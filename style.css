@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 30px;
+    font-family: Poppins;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    
+}
+
+.sheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.smain {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.sfooter section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 150px;
+}
+
+.fsection {
+    padding: 20px;
+    background-color: silver;
+    border-radius: 15px 0 0 15px;
+}
+
+.fsection div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fsection input {
+    padding: 5px;
+    width: 180px;
+    height: auto;
+    border: none;
+}
+
+.fsection div span {
+    border: none;
+    background-color: rgb(6, 185, 250);
+    padding: 4px;
+    margin-top: 2px;
+}
+
+.fsection div span i {
+    color: white;
+    font-size: 18px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.ssection {
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 0 15px 15px 0;
+}
+
+.sheader div button {
+    border: none;
+    background-color: white;
+    margin: 0 14px 0 0;
+    color: white;
+}
+
+#round {
+    border-radius: 50%;
+    padding: 5px;
+    width: 35px;
+    height: auto;
+    color: black;
+}
+
+.sheader section button {
+    border: none;
+    background-color: aliceblue;
+    margin: 0 14px 0 0;
+}
+
+.sheader section button:hover {
+    color: blue;
+}
+
+
+#round:hover {
+    background-color: black;
+    color: white;
+}
+
+.fsection img {
+    width: 190px;
+    height: auto;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+#location {
+    margin-top: 1035px;
+}
+
+.smain div img {
+    width: 80px;
+    height: auto;
+}
+
+.smain div {
+    border: none;
+    text-align: center;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: white;
+    padding: 5px;
+}
+
+.smain div p {
+    margin: 2px;
+}
+
+.sfooter section div {
+    border: none;
+    text-align: center;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: white;
+    padding: 5px;
+}
+
+.sfooter section div h3 {
+    margin: 2px;
+}
+
+.sfooter section div p:nth-child(3) {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.sfooter section div p:first-child {
+    text-align: left;
+    margin-left: 5px;
+}
+
+blockquote {
+    text-align: center;
+}
+
+.smain {
+    margin-bottom: 30px;
+
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+.smain2 {
+    display: none;
+}
