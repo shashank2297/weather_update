@@ -21,7 +21,7 @@ function fetchWeatherData(city) {
 
     apiurl = api1 + api2 + api3
 
-    console.log(typeof(apiurl));
+    console.log(typeof (apiurl));
 
 
     fetch(apiurl)
